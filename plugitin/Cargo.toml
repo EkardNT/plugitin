@@ -1,0 +1,15 @@
+[package]
+name = "plugitin"
+version = "0.1.0"
+authors = ["Drake Tetreault <ekardnt@ekardnt.com>"]
+edition = "2018"
+
+[features]
+# If selected, enables the plugin host section of the library.
+host = []
+# If selected, enables the plugin client section of the library.
+client = []
+
+[dependencies]
+bincode = "1.2"
+serde = "1.0"
